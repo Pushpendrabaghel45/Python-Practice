@@ -68,7 +68,7 @@ max_marks = 400
 percentage = total_marks / 4
 
 print(f"Student Name: {first_name} {last_name}")
-print(f"Year of Birth: {Birth_year}")
+print(f"Exam Year: {Exam_year}")
 
 
 if English < 50 or Math < 50 or Science < 50 or Commerce < 50:
