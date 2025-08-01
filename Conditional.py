@@ -52,25 +52,37 @@
 #     print("You failed the exam")    
 
 
+first_name =str.upper (input("Enter your first name: "))
+last_name =str.upper (input("Enter your last name: "))
+Exam_year = int(input("Enter your exam year: "))
 
 
-# student results# Calculate total marks and percentage, then determine grade
-print("Enter marks for each subject:")
-Hindi = float(input("Enter marks Hindi: "))
-English = float(input("Enter marks English: "))
-Math = float(input("Enter marks Math: "))
-Science = float(input("Enter marks Science: "))
-Computers = float(input("Enter marks Computers: "))
 
-total_marks = Hindi + English + Math + Science + Computers
-percentage = total_marks / 5
+English = float(input("Enter your marks English: "))
+Math = float(input("Enter your marks Math: "))
+Science = float(input("Enter your marks Science: "))
+Commerce = float(input("Enter your marks Commerce: "))
+
+total_marks =  English + Math + Science + Commerce
+max_marks = 400
+percentage = total_marks / 4
+
+print(f"Student Name: {first_name} {last_name}")
+print(f"Year of Birth: {Birth_year}")
 
 
-if Hindi < 33 or English < 33 or Math < 33 or Science < 33 or Computers < 33:
-    print("Result: Fail")
+if English < 50 or Math < 50 or Science < 50 or Commerce < 50:
+    print("Result: Try Again")
 else:
     print("Result: Pass")
-    
+
+    print("Marks Obtained:")  
+    print(f"English: {English}")
+    print(f"Math: {Math}")
+    print(f"Science: {Science}")
+    print(f"Commerce: {Commerce}")
+
+    print(f"Total Marks: {total_marks}/{max_marks}")
 
     if percentage >= 90:
         grade = 'A+'
