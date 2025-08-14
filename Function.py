@@ -35,8 +35,8 @@ def addition(x,y):
 
 addition(10, 20)
 addition(30, 40)
-addition(50, 60)
-addition(70, 80)
+addition(60, 60)
+addition(70, 100)
 
 
 def greet(name):
