@@ -213,6 +213,7 @@ def topper():
     print(f"🏆 Topper: {top['name']} with {top['marks']} marks")
 
 # Main Loop
+#while False:
 while True:
     print("\n=== Student Management System ===")
     print("1. Add Student")
@@ -239,3 +240,4 @@ while True:
         break
     else:
         print("❌ Invalid choice! Please try again.")
+
