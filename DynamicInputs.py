@@ -9,6 +9,7 @@
 
 # print(vl1*vl2)  
 # print (60+30)
+#print (vl1/vl2)
 
 
 
@@ -17,6 +18,7 @@
 # print(5 - 2 + 3)
 # print(5 - (2 + 3))
 # print(5 ** 3 ** 2)
+
 
 
 
