@@ -52,53 +52,55 @@
 #     print("You failed the exam")    
 
 
-first_name =str.upper (input("Enter your first name: "))
-last_name =str.upper (input("Enter your last name: "))
-Exam_year = int(input("Enter your exam year: "))
+
+
+# first_name =str.upper (input("Enter your first name: "))
+# last_name =str.upper (input("Enter your last name: "))
+# Exam_year = int(input("Enter your exam year: "))
 
 
 
-English = float(input("Enter your marks English: "))
-Math = float(input("Enter your marks Math: "))
-Science = float(input("Enter your marks Science: "))
-Commerce = float(input("Enter your marks Commerce: "))
+# English = float(input("Enter your marks English: "))
+# Math = float(input("Enter your marks Math: "))
+# Science = float(input("Enter your marks Science: "))
+# Commerce = float(input("Enter your marks Commerce: "))
 
-total_marks =  English + Math + Science + Commerce
-max_marks = 400
-percentage = total_marks / 4
+# total_marks =  English + Math + Science + Commerce
+# max_marks = 400
+# percentage = total_marks / 4
 
-print(f"Student Name: {first_name} {last_name}")
-print(f"Exam Year: {Exam_year}")
+# print(f"Student Name: {first_name} {last_name}")
+# print(f"Exam Year: {Exam_year}")
 
 
-if English < 50 or Math < 50 or Science < 50 or Commerce < 50:
-    print("Result: Try Again")
-else:
-    print("Result: Pass")
+# if English < 50 or Math < 50 or Science < 50 or Commerce < 50:
+#     print("Result: Try Again")
+# else:
+#     print("Result: Pass")
 
-    print("Marks Obtained:")  
-    print(f"English: {English}")
-    print(f"Math: {Math}")
-    print(f"Science: {Science}")
-    print(f"Commerce: {Commerce}")
+#     print("Marks Obtained:")  
+#     print(f"English: {English}")
+#     print(f"Math: {Math}")
+#     print(f"Science: {Science}")
+#     print(f"Commerce: {Commerce}")
 
-    print(f"Total Marks: {total_marks}/{max_marks}")
+#     print(f"Total Marks: {total_marks}/{max_marks}")
 
-    if percentage >= 90:
-        grade = 'A+'
-    elif percentage >= 80:
-        grade = 'A'
-    elif percentage >= 70:
-        grade = 'B'
-    elif percentage >= 60:
-        grade = 'C'
-    elif percentage >= 50:
-        grade = 'D'
-    else:
-        grade = 'E'
+#     if percentage >= 90:
+#         grade = 'A+'
+#     elif percentage >= 80:
+#         grade = 'A'
+#     elif percentage >= 70:
+#         grade = 'B'
+#     elif percentage >= 60:
+#         grade = 'C'
+#     elif percentage >= 50:
+#         grade = 'D'
+#     else:
+#         grade = 'E'
     
-    print(f"Percentage: {percentage:.2f}%")
-    print(f"Grade: {grade}")
+#     print(f"Percentage: {percentage:.2f}%")
+#     print(f"Grade: {grade}")
 
 
 
@@ -116,3 +118,4 @@ else:
 #         print("Unknown Role")
 # else:
 #     print("Not an IT department")
+

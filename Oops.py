@@ -38,13 +38,18 @@ my_car.display_info()
 # car2 = Car("Tata", "Nexon", 2022)
 # car3 = Car("Toyota", "Corolla", 2020)
 # car1.start()
+
+# # print(car1.display_info())
+# # print(car2.display_info())
+# # print(car3.display_info())
+
 # car1.display_info()
 # car2.display_info()
 # car3.display_info()
 
 
 
-                        #   Step=3(Create 2 different car objects and call the method)
+#                           Step=3(Create 2 different car objects and call the method)
 
 
 # class Car:
