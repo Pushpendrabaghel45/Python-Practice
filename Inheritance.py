@@ -62,6 +62,7 @@
 #         super().show__employee(name, salary)
 #         self.department = department
 
+
 #     def display_details(self):
 #         print(f"Manager Name: {self.name}")
 #         print(f"Salary: {self.salary}")
@@ -93,6 +94,7 @@
 # circle.show_shape()
 # circle.show_circle()
 # rectangle.show_rectangle()
+
 
 
 
