@@ -62,7 +62,6 @@
 #         super().show__employee(name, salary)
 #         self.department = department
 
-
 #     def display_details(self):
 #         print(f"Manager Name: {self.name}")
 #         print(f"Salary: {self.salary}")
@@ -74,7 +73,7 @@
 
 
 
-#    Task 4: Hierarchical Inheritance
+# #    Task 4: Hierarchical Inheritance
 # class shape:
 #     def show_shape(self, area):
 #         self.area = area
@@ -85,17 +84,16 @@
 #         print("This is a Circle")
 
 # class rectangle(shape):
-#     def show_rectangle(self)
+#     def show_rectangle(self):
 #         print("This is a Rectangle")
     
-# circle = circle()
-# rectangle = rectangle()
+# s = shape()
+# c = circle()
+# r = rectangle()
 
-# circle.show_shape()
-# circle.show_circle()
-# rectangle.show_rectangle()
-
-
+# s.show_shape(10)
+# c.show_circle()
+# r.show_rectangle()
 
 
 #   Task 5 using super()
