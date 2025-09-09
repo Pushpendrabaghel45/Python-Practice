@@ -57,6 +57,7 @@
 #         super().show__person(name)
 #         self.salary = salary
 
+
 # class manager(employee):
 #     def show__manager(self, name, salary, department):
 #         super().show__employee(name, salary)
@@ -70,6 +71,7 @@
 # m = manager()
 # m.show__manager("pushpendra", 80000, "HR")
 # m.display_details()
+
 
 
 
