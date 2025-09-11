@@ -15,8 +15,6 @@ my_car = Car("Toyota", "Corolla", 2020)
 my_car.display_info()
 
 
-
-
                 #   Step=2( Add a method start() that prints "Car is starting")
                 
 
