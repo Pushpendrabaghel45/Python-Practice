@@ -10,7 +10,6 @@
 #     print("Tax rate: 30%")
 
 
-
 # amount = float(input("Enter purchase amount: "))
 # if amount >= 1000:
 #     print("You get a 10% discount")
@@ -118,4 +117,5 @@
 #         print("Unknown Role")
 # else:
 #     print("Not an IT department")
+
 
