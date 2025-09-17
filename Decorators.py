@@ -34,7 +34,9 @@
 # call()
 # call()
 
+
 # 3. Write a decorator that checks if the user’s age is 18 or above before allowing access to a function.
+
 
 def age_check(func):
     def wrapper(age, *args, **kwargs):
@@ -49,4 +51,5 @@ def age_check(func):
 def decorator(age):
 
     print("Elagable to vote")
+
 decorator(22)
