@@ -8,7 +8,6 @@
 # print(Ahamdabad != Condition)
 
 
-
 # var = 10
 # # new_var = var +10
 # print(var) #10
@@ -73,6 +72,7 @@
 # y = (10 + 5) * 2  # Output: 30
 # print("x",x)  # 20
 # print("y",y)  # 30
+
 
 
 
