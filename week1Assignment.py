@@ -8,7 +8,6 @@
 # a = a + b
 # b = a - b
 
-
 # print(a)
 # print(b)
 
@@ -51,6 +50,7 @@
 
 
                             # Part B: Data Types (int, float, str, boolean) (10 Tasks)
+
 
 # #   1. Take input from the user and check its data type using type().
 
@@ -564,5 +564,6 @@
 #             break
 #     else:
 #         print(num)
+
 
 
