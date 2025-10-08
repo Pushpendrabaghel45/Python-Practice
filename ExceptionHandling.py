@@ -2,6 +2,7 @@
 
 # 1. Create a custom exception TooYoungError. Raise it if age entered is less than 18.
 
+
 # class TooYoungError(Exception):
 #     " exception when raise is less than 18."
 
@@ -88,7 +89,6 @@
     
 # except DivisionByZeroError as e:
 #     print(f"Math error: {e}")
-
 
     
 # 5. Design a Student class where adding marks raises an exception if marks > 100
