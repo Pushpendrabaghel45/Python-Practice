@@ -69,7 +69,6 @@
 
 
 
-
 # # 4. Create a program that raises an exception if a number is divided by zero (custom error, not ZeroDivisionError).
 
 
