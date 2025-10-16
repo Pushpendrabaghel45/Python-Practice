@@ -10,7 +10,6 @@
 # # print(p1__salary)
 
 
-
 # 1. Create a class Account with a private attribute __balance. Add getter and setter methods.
 
 
@@ -50,4 +49,5 @@
 #         print(self.__price)
 
 # car = car("Thar", 18, 2000000)
+
 # car.display()
