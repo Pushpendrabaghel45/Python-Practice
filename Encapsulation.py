@@ -34,7 +34,6 @@
 # print(acc.get__balance())
 
 
-
 # 2.Make a class Car with public (brand), protected (_mileage), and private (__price) attributes. Print them.
 
 # class car:
@@ -51,3 +50,4 @@
 # car = car("Thar", 18, 2000000)
 
 # car.display()
+
