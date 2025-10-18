@@ -25,8 +25,6 @@
 #     print("Not eligible to vote")
 
 
-
-
 # student_score = int(input("Enter student score: "))
 # if student_score >= 90:
 #     print("Grade: A+")
@@ -38,8 +36,6 @@
 #     print("Grade: C")
 # else:
 #     print("Grade: D")
-
-
 
 
 
@@ -117,5 +113,6 @@
 #         print("Unknown Role")
 # else:
 #     print("Not an IT department")
+
 
 
