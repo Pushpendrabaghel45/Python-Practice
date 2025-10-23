@@ -12,7 +12,6 @@
 
 # 1. Create a class Account with a private attribute __balance. Add getter and setter methods.
 
-
 # class Account:
 #     def __init__(self, __balance):
 #         self.__balance = __balance
@@ -36,6 +35,7 @@
 
 # 2.Make a class Car with public (brand), protected (_mileage), and private (__price) attributes. Print them.
 
+
 # class car:
 #     def __init__(self, brand, mileage, price):
 #         self.brand = brand
@@ -50,4 +50,5 @@
 # car = car("Thar", 18, 2000000)
 
 # car.display()
+
 
