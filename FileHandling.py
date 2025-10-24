@@ -3,7 +3,6 @@
 
 # class TextLogger:
 
-
 #     def __init__(self, filename = "log.txt"):
 #         self.filename = filename
 
