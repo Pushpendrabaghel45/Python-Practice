@@ -11,7 +11,6 @@ for i in range(10, 0, -1):
     print()
 
 
-
 # for i in range(1, 10):
 #     for j in range(10, i, -1):
         
@@ -73,6 +72,7 @@ for i in range(10, 0, -1):
 #     if p in ('g', 'r'):
 #         pass  # Do nothing for 'g' or 'r'
 #     print(p)  # Print other characters
+
 
 
 
