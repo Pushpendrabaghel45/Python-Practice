@@ -10,8 +10,6 @@
 
 
 
-
-
 # age = 10
 
 # # Conditional checks
