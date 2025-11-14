@@ -57,10 +57,10 @@
 
 
 
-age = 10
-if age < 10:
+age = 12
+if age < 12:
     print("child")
-elif 10 <= age <= 18:
+elif 12 <= age <= 18:
     print("teenager")
 else:
     print("adult")
