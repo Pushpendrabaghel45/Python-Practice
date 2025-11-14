@@ -9,7 +9,6 @@
 #     print("The number is Zero.")
 
 
-
 # age = 10
 
 # # Conditional checks
@@ -31,9 +30,9 @@
 
 
 
-# num1 = 68
+# num1 = 75
 # num2 = 80
-# num3 = 60
+# num3 = 90
 
 # # Compare the numbers using conditional statements
 # if num1 >= num2 and num1 >= num3:
