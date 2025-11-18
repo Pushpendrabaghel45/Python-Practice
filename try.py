@@ -16,7 +16,6 @@
 #     print("Try block execution done.")
 
 
-
 # try:
 #     x = int(input("Enter number: "))
 #     print("Result:", 10 / x)
