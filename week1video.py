@@ -15,7 +15,6 @@
 # print(f"My favorite movie is {movie_name}, and release {release_year},with ratting of {rating}/10.")
 
 
-
 # 3. Take input from the user and check its data type using type().
 
 # user = 52.20
