@@ -216,8 +216,8 @@
 
 # # 6. Show the difference between == and is operators with examples.
 
-# a = [8,5,6]
-# b = [8,5,6]
+# a = [4,5,6]
+# b = [4,5,6]
 # print(a == b)
 # print(a is b)
 
@@ -564,6 +564,7 @@
 #             break
 #     else:
 #         print(num)
+
 
 
 
