@@ -30,6 +30,7 @@
 # print(f"area of the rectangle is {area} square")
 
 
+
 # # 4. Store your favorite movie name, release year, and rating in variables and print them in a formatted string.
 
 # movie_name = "Hanuman"
@@ -53,7 +54,6 @@
 
 
 # #   1. Take input from the user and check its data type using type().
-
 
 # user = 52.20
 
@@ -564,6 +564,7 @@
 #             break
 #     else:
 #         print(num)
+
 
 
 
