@@ -13,6 +13,7 @@
 # name = tuple("Jaguar")
 # print(name)
 
+
 # #creating a tuple with mixed data types
 # tup = (10, 'jaguar', 15, 'python')
 # print(tup) 
