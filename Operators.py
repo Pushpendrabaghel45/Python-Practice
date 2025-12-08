@@ -30,7 +30,6 @@
 # var+=1
 # print(var)   #33
 
-
 # # Calculate total price including discount
 # price = 200
 # discount = 15  # in percent
@@ -72,6 +71,7 @@
 # y = (10 + 5) * 2  # Output: 30
 # print("x",x)  # 20
 # print("y",y)  # 30
+
 
 
 
