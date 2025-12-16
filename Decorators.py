@@ -1,4 +1,4 @@
-# # 1. Write a decorator that prints "Function is starting..." before and "Function has finished." after any function runs.
+ # 1. Write a decorator that prints "Function is starting..." before and "Function has finished." after any function runs.
 
 
 # def My_Decorator(function):
@@ -15,7 +15,6 @@
 
 
 # say_hello()
-
 
 
 # # 2. Create a decorator that counts how many times a function is called.
@@ -49,7 +48,6 @@ def age_check(func):
 
 @age_check
 def decorator(age):
-
     print("Elagable to vote")
-
 decorator(22)
+
