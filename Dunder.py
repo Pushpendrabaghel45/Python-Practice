@@ -9,9 +9,8 @@
 #     def __str__(self):
 #         return f"Book details: , {self.author}, {self.year}"
 
-# b = Book("Pushpendra", 2005)
+# b = Book("Pushpendra", 2001)
 # print(b)   
-
 
 
 # # 2. Implement __len__ for a Playlist class that returns number of songs.
@@ -42,8 +41,9 @@
 #     def __str__(self):
 #         return f"Balance:  {self.balance}"
 
-# b1 = BankAccount = 50000
+# b1 = BankAccount = 10000
 # b2 = BankAccount = 20000
+
 # b = b1 + b2
 # print(b)
 
@@ -159,6 +159,7 @@
 
 # em3 = em1 + em2
 # print(em3)
+
 
 
 
