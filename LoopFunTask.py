@@ -14,13 +14,11 @@
 #     print()
 
 
-
 # for i in range(1, 10):
 #     for j in range(10, i, -1):
         
 #         print("*", end=' ')
 #     print()
-
 
 
 
@@ -240,4 +238,5 @@ while True:
         break
     else:
         print("❌ Invalid choice! Please try again.")
+
 
