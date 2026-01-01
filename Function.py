@@ -14,7 +14,6 @@
 # print(evenOdd(7))
 
 
-
 # def customfun():
 #     print("welcome")
 
@@ -33,9 +32,9 @@
 def addition(x,y):
     print(x+y)
 
-addition(10, 20)
+addition(20, 30)
 addition(30, 40)
-addition(60, 60)
+addition(60, 80)
 addition(70, 100)
 
 
@@ -47,3 +46,4 @@ def greet(name):
     return(f"Hello, {name}!")
 
     print(greet('Alice'))
+
