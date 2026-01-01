@@ -6,11 +6,11 @@
 #     def __init__(self, filename = "log.txt"):
 #         self.filename = filename
 
-
 #     def log(self, messages):
 #         self.messages = messages
 #         with open(self.filename,  "a") as file:
 #             file.write(messages + "\n")
+
 
 
 class JSONLibrary:
