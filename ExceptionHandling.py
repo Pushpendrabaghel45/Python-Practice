@@ -1,5 +1,4 @@
 
-
 # 1. Create a custom exception TooYoungError. Raise it if age entered is less than 18.
 
 
