@@ -18,7 +18,7 @@
 #         print(f"Error: {e}")
 
 # check_age(18)
-# check_age(15)
+# check_age(16)
 
 
 # # 2. Write a BankAccount class where withdrawal raises InsufficientFundsError if balance is low.
@@ -40,7 +40,6 @@
 
 
 # # 3. Make a PasswordValidator class. Raise a WeakPasswordError if password is too short.
-
 
 
 # # Custom Exception
