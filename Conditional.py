@@ -1,10 +1,10 @@
 # income = float(input("Enter your income: "))
 
-# if income <= 250000:
+# if income <= 25000:
 #     print("No tax")
-# elif income <= 500000:
+# elif income <= 50000:
 #     print("Tax rate: 5%")
-# elif income <= 1000000:
+# elif income <= 100000:
 #     print("Tax rate: 20%")
 # else:
 #     print("Tax rate: 30%")
@@ -15,7 +15,6 @@
 #     print("You get a 10% discount")
 # else:
 #     print("No discount")
-
 
 
 # age = int(input("Enter your age: "))
@@ -113,6 +112,7 @@
 #         print("Unknown Role")
 # else:
 #     print("Not an IT department")
+
 
 
 
