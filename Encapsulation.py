@@ -2,9 +2,9 @@
 #     def __init__(self, name, age):
 #         self.name = name
 #         self._city = "Ahamdabad"
-#         self.__salary = 25000
+#         self.__salary = 20000
 
-# p1 = person("Pushpendra", 23)
+# p1 = person("Shivam", 23)
 # print(p1.name)
 # print(p1._city)
 # # print(p1__salary)
@@ -50,5 +50,6 @@
 # car = car("Thar", 18, 2000000)
 
 # car.display()
+
 
 
