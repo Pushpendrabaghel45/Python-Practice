@@ -23,7 +23,6 @@
 # car.display_details()
 
 
-
 # Task 2: Multiple Inheritance
 
 # class teacher:
@@ -46,7 +45,6 @@
 
 
 # Task 3: Multilevel Inheritance
-
 
 # class person:
 #     def show__person(self, name):
