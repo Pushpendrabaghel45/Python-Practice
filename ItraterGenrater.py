@@ -2,7 +2,6 @@
 
 fruit = ["Apple", "Banana", "kavy", "Orange"]
 it = iter(fruit)
-
 print(next(it))
 print(next(it))
 print(next(it))
