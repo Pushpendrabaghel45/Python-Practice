@@ -15,7 +15,7 @@ my_car = Car("Toyota", "Corolla", 2020)
 my_car.display_info()
 
 
-                #   Step=2( Add a method start() that prints "Car is starting")
+                   #   Step=2( Add a method start() that prints "Car is starting")
                 
 
 # class Car:
@@ -47,7 +47,7 @@ my_car.display_info()
 
 
 
-#                           Step=3(Create 2 different car objects and call the method)
+               #  Step=3(Create 2 different car objects and call the method)
 
 
 # class Car:
