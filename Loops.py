@@ -6,7 +6,7 @@
 
 
 for i in range(10, 0, -1):
-    for j in range(i):
+    for k in range(i):
         print("*", end=' ')
     print()
 
@@ -16,8 +16,6 @@ for i in range(10, 0, -1):
         
 #         print("*", end=' ')
 #     print()
-
-
 
 
 # li = ["python", "java", "c++", "javascript"]
@@ -72,6 +70,7 @@ for i in range(10, 0, -1):
 #     if p in ('g', 'r'):
 #         pass  # Do nothing for 'g' or 'r'
 #     print(p)  # Print other characters
+
 
 
 
