@@ -9,12 +9,11 @@
 #     def __str__(self):
 #         return f"Book details: , {self.author}, {self.year}"
 
-# b = Book("Pushpendra", 2001)
+# b = Book("Rajveer", 2004)
 # print(b)   
 
 
 # # 2. Implement __len__ for a Playlist class that returns number of songs.
-
 
 # class Playlist:
 #     def __init__(self, song):
@@ -159,6 +158,7 @@
 
 # em3 = em1 + em2
 # print(em3)
+
 
 
 
