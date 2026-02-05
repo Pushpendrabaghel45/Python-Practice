@@ -13,7 +13,6 @@
 # def say_hello():
 #     print("Hello Prem.")
 
-
 # say_hello()
 
 
@@ -50,4 +49,5 @@ def age_check(func):
 def decorator(age):
     print("Elagable to vote")
 decorator(22)
+
 
