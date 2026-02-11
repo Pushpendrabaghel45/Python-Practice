@@ -1,6 +1,5 @@
 # 1. Create a class TextLogger that appends new messages into a log file.
 
-
 # class TextLogger:
 
 #     def __init__(self, filename = "log.txt"):
@@ -10,7 +9,6 @@
 #         self.messages = messages
 #         with open(self.filename,  "a") as file:
 #             file.write(messages + "\n")
-
 
 
 class JSONLibrary:
