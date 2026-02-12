@@ -28,7 +28,6 @@
 # customfun()
 
 
-
 def addition(x,y):
     print(x+y)
 
@@ -46,4 +45,5 @@ def greet(name):
     return(f"Hello, {name}!")
 
     print(greet('Alice'))
+
 
