@@ -9,12 +9,12 @@
 #     print("The number is Zero.")
 
 
-# age = 10
+# age = 12
 
 # # Conditional checks
-# if age < 10:
+# if age < 12:
 #     print("The person is a Child.")
-# elif 10 <= age <= 18:
+# elif 12 <= age <= 18:
 #     print("The person is a Teenager.")
 # else:
 #     print("The person is an Adult.")
