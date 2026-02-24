@@ -65,8 +65,6 @@
 #     print(f"Validation Error: {e}")
 
 
-
-
 # # 4. Create a program that raises an exception if a number is divided by zero (custom error, not ZeroDivisionError).
 
 
@@ -108,7 +106,6 @@ class Student:
         self.marks.append(mark)
     def average(self):
         return sum(self.marks) / len(self.marks) if self. marks else 0
-
 
 Student = Student("Pushpendra")
 
