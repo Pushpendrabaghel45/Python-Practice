@@ -24,7 +24,6 @@
 #     print("Not eligible to vote")
 
 
-
 # student_score = int(input("Enter student score: "))
 # if student_score >= 90:
 #     print("Grade: A+")
@@ -44,8 +43,6 @@
 #     print("You passed the exam")
 # else:
 #     print("You failed the exam")    
-
-
 
 
 # first_name =str.upper (input("Enter your first name: "))
@@ -98,8 +95,6 @@
 
 
 
-
-
 # department = input("Enter department: ")
 # role = input("Enter role: ")
 
@@ -112,7 +107,6 @@
 #         print("Unknown Role")
 # else:
 #     print("Not an IT department")
-
 
 
 
