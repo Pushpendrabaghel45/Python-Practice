@@ -7,7 +7,6 @@
 
 # print(Ahamdabad != Condition)
 
-
 # var = 10
 # # new_var = var +10
 # print(var) #10
@@ -17,7 +16,6 @@
 
 # var+=10 #var =var+10
 # print(var) #30
-
 
 # # print(var+1)
 # # print(var+1)
@@ -54,6 +52,7 @@
 #     print("Invalid Credentials")
 
 
+
 # # User permissions using bits (1 = allowed, 0 = not)
 # READ = 4   # 100
 # WRITE = 2  # 010
@@ -71,6 +70,7 @@
 # y = (10 + 5) * 2  # Output: 30
 # print("x",x)  # 20
 # print("y",y)  # 30
+
 
 
 
