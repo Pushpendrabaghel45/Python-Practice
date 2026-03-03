@@ -16,8 +16,7 @@
 #         print(f"Car Brand: {self.brand}")
 #         print(f"Car Model: {self.model}")
 #         print(f"Fuel Type: {self.fueltype}")
-
-         
+      
 # car = car()
 # car.show("Mahindra", "Bolero", "Diesel")
 # car.display_details()
