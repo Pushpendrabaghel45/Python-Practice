@@ -9,8 +9,9 @@
 # print(p1._city)
 # # print(p1__salary)
 
-
 # 1. Create a class Account with a private attribute __balance. Add getter and setter methods.
+
+
 
 # class Account:
 #     def __init__(self, __balance):
@@ -25,6 +26,7 @@
 
 #         else:
 #             print("invalid amount")
+
 
 
 # acc = Account(100000)
@@ -48,6 +50,7 @@
 
 # car = car("Thar", 18, 2000000)
 # car.display()
+
 
 
 
