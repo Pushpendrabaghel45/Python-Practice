@@ -6,4 +6,4 @@ print(next(it))
 print(next(it))
 print(next(it))
 print(next(it))
-print
+print(next(it))
