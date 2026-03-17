@@ -149,15 +149,15 @@
 
 
 
-# def nameAge(name, age):
-#     print("Hi, I am", name)
-#     print("My age is ", age)
+def nameAge(name, age):
+    print("Hi, I am", name)
+    print("My age is ", age)
 
-# print("Case-1:")
-# nameAge("Suraj", 27)
+print("Case-1:")
+nameAge("Suraj", 27)
 
-# # print("\nCase-2:")
-# # nameAge("Sumit", 30)
+# print("\nCase-2:")
+# nameAge("Sumit", 30)
 
 
 
