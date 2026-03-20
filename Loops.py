@@ -52,24 +52,23 @@ for i in range(10, 0, -1):
 
 
 
-# # loop control statements
-# for p in 'pythonprogramming':
-#     if p == 'g' or p == 'r':
-#         continue  # Skip the rest of the loop for this iteration
-#     print(p)
+# loop control statements
+for p in 'pythonprogramming':
+    if p == 'g' or p == 'r':
+        continue  # Skip the rest of the loop for this iteration
+    print(p)
     
 
-# for p in 'pythonprogramming':
-#     if p in ('o'):
-#         break  # Exit the loop when 'g' or 'r' is encountered
-#     print(p)
+for p in 'pythonprogramming':
+    if p in ('o'):
+        break  # Exit the loop when 'g' or 'r' is encountered
+    print(p)
 
 
-
-# for p in 'pythonprogramming':
-#     if p in ('g', 'r'):
-#         pass  # Do nothing for 'g' or 'r'
-#     print(p)  # Print other characters
+for p in 'pythonprogramming':
+    if p in ('g', 'r'):
+        pass  # Do nothing for 'g' or 'r'
+    print(p)  # Print other characters
 
 
 
