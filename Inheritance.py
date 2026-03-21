@@ -24,22 +24,22 @@
 
 # Task 2: Multiple Inheritance
 
-# class teacher:
-#     def show__teacher(self):
-#         print("Teaching...")
+class teacher:
+    def show__teacher(self):
+        print("Teaching...")
 
-# class student(teacher):
-#     def show__student(self):
-#         print("Learning...")
+class student(teacher):
+    def show__student(self):
+        print("Learning...")
 
-# class teachingAssistant(teacher, student):
-#     def show__teachingAssistant(self):
-#         print("Assisting...")
+class teachingAssistant(teacher, student):
+    def show__teachingAssistant(self):
+        print("Assisting...")
 
-# ta = teachingAssistant()
-# ta.show__teacher()
-# ta.show__student()
-# ta.show__teachingAssistant()
+ta = teachingAssistant()
+ta.show__teacher()
+ta.show__student()
+ta.show__teachingAssistant()
 
 
 
