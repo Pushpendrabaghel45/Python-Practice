@@ -1,18 +1,18 @@
-                        # Step=1( Create a Car class with attributes: brand, model, and year)
+                         # Step=1( Create a Car class with attributes: brand, model, and year)
                      
 
-class Car:
-    def __init__(self, brand, model, year):
-        self.brand = brand
-        self.model = model
-        self.year = year
+# class Car:
+#     def __init__(self, brand, model, year):
+#         self.brand = brand
+#         self.model = model
+#         self.year = year
 
-    def display_info(self):
-        print(f"Car : {self.year} {self.brand} {self.model}")
+#     def display_info(self):
+#         print(f"Car : {self.year} {self.brand} {self.model}")
 
-my_car = Car("Toyota", "Corolla", 2020)
-# print(my_car.display_info())
-my_car.display_info()
+# my_car = Car("Toyota", "Corolla", 2020)
+# # print(my_car.display_info())
+# my_car.display_info()
 
 
                    #   Step=2( Add a method start() that prints "Car is starting")
@@ -78,26 +78,26 @@ my_car.display_info()
                   #  Step=4( Add another method car_info() that returns brand, model, and year)
   
 
-# class Car:
-#     def __init__(self, brand, model, year):
-#         self.brand = brand
-#         self.model = model
-#         self.year = year
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
 
-#     def start(self):
-#         print(f" {self.brand} {self.model} is starting.....")
+    def start(self):
+        print(f" {self.brand} {self.model} is starting.....")
 
-#     def display_info(self):
-#         print(f"Car : {self.year} {self.brand} {self.model}")
+    def display_info(self):
+        print(f"Car : {self.year} {self.brand} {self.model}")
 
-#     def car_info(self):
-#         return f"Brand: {self.brand}, Model: {self.model}, Year: {self.year}"
+    def car_info(self):
+        return f"Brand: {self.brand}, Model: {self.model}, Year: {self.year}"
 
-# # Create two car objects
-# car1 = Car("Honda", "Civic", 2021)
-# car2 = Car("Tata", "Nexon", 2022)
+# Create two car objects
+car1 = Car("Honda", "Civic", 2021)
+car2 = Car("Tata", "Nexon", 2022)
 
 
-# #call methods
-# print(car1.car_info())
-# print(car2.car_info())  
+#call methods
+print(car1.car_info())
+print(car2.car_info())  
