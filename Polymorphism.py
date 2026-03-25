@@ -20,6 +20,7 @@
 # print("Result:", num1.Add(0))
 
 
+
 # step = 2
 
 # class vehicle:
@@ -53,8 +54,8 @@ class Complexnumber:
     def __add__(self, other):
         return self.marks + other.marks
 
-c1 = Complexnumber(50)
-c2 = Complexnumber(60)
+c1 = Complexnumber(70)
+c2 = Complexnumber(80)
 
 print(c1 + c2)
     
