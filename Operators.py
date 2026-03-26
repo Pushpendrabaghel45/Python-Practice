@@ -42,7 +42,6 @@
 #     print("Not eligible")
 
 
-
 # email = "admin@company.com"
 # password = "admin123"
 
@@ -50,7 +49,6 @@
 #     print("Login Success")
 # else:
 #     print("Invalid Credentials")
-
 
 
 # # User permissions using bits (1 = allowed, 0 = not)
