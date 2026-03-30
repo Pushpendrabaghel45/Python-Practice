@@ -38,12 +38,12 @@
 
 
 # # 4. Validate if a given string is a valid phone number (10 digits).
-# import re
+import re
 
-# Example = "Call me at 6845125487 or 85652348585"
-# use = re.findall(r'\d{10}', Example)
+Example = "Call me at 6845125487 or 85652348585"
+use = re.findall(r'\d{10}', Example)
 
-# print(use)
+print(use)
 
 
 
