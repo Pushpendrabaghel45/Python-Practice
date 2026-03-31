@@ -1,7 +1,8 @@
 #1. Create an iterator from a list of fruits and print each fruit using next().
 
-fruit = ["Apple", "Banana", "kavy", "Orange", "Graps"]
+fruit = ["Apple", "Banana", "kavy", "Orange", "Graps", "Froots"]
 it = iter(fruit)
+print(next(it))
 print(next(it))
 print(next(it))
 print(next(it))
