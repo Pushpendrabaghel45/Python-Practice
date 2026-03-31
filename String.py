@@ -17,17 +17,17 @@
 # print(text1, text2, text3)
 
 
-# name = "python"
-# print(name[5])  
-# print(name[-5])  
+name = "python"
+print(name[5])  
+print(name[-5])  
 
 
 
-# text = "Data analytics"
-# print(text[0:4])
-# print(text[:4])
-# print(text[5:])
-# print(text[5:11])
-# print(text[-3:])  
+text = "Data analytics"
+print(text[0:4])
+print(text[:4])
+print(text[5:])
+print(text[5:11])
+print(text[-3:])  
 
 
