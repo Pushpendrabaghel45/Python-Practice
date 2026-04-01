@@ -129,35 +129,35 @@
 # print(p)
 
 
-# # 10. Combine __str__, __len__, and __add__ in a single class.
+# 10. Combine __str__, __len__, and __add__ in a single class.
 
 
-# class Employee:
-#     def __init__(self, name, income):
-#         self.name = name
-#         self.income = income
+class Employee:
+    def __init__(self, name, income):
+        self.name = name
+        self.income = income
     
-#     def __str__(self):
-#         return (f"Employee name: {self.name}, income: {self.income} ")
+    def __str__(self):
+        return (f"Employee name: {self.name}, income: {self.income} ")
 
-#     def __len__(self):
-#         return len({self.name}, {self.income})
+    def __len__(self):
+        return len({self.name}, {self.income})
 
-#     def __add__(self, other):
-#         return (self.name + other.name, self.income + other.income)
+    def __add__(self, other):
+        return (self.name + other.name, self.income + other.income)
 
-#     def __repr__(self):
-#         return (f"employee name: {self.name} salary: {self.income}")
+    def __repr__(self):
+        return (f"employee name: {self.name} salary: {self.income}")
 
 
-# em = Employee("Pushpendra baghel", 30000)
-# # em = Employee["pushpa", "raju", "singham"]
+em = Employee("Pushpendra baghel", 30000)
+# em = Employee["pushpa", "raju", "singham"]
 
-# em1 = Employee("Pushpendra baghel", 30000)
-# em2 = Employee(" shivam baghel", 20000)
+em1 = Employee("Pushpendra baghel", 30000)
+em2 = Employee(" shivam baghel", 20000)
 
-# em3 = em1 + em2
-# print(em3)
+em3 = em1 + em2
+print(em3)
 
 
 
