@@ -6,7 +6,7 @@
 # tup = ("jaguar", "Lion")
 # print(tup)
 
-# li = [12, 20,  24, 30, 36]
+# li = [12, 20, 24, 30, 36]
 # print(tuple(li))
 
 
