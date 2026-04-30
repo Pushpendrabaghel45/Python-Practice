@@ -12,6 +12,7 @@
 # print(b)
 
 
+
 # #2.  Create a program that takes your name and age as input and prints them in a sentence.
 
 # name = input("Enter your name:")
