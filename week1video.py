@@ -22,53 +22,53 @@ print(type(user))
 
 # 4. Write a program that accepts two integers and prints their sum, difference, product, and quotient.
 
-# a = 50
+a = 50
 
-# b = 80
+b = 80
 
-# print("Sum:", a + b)
-# print("Difference:", a - b)
+print("Sum:", a + b)
+print("Difference:", a - b)
 
-# print("Product:", a * b)
-# print("quotient:", a/b)
+print("Product:", a * b)
+print("quotient:", a/b)
 
 
 # 5. Write a program that takes three numbers and prints the largest one using comparison operators
 
 
-# a = input("Enter first number")
-# b = input("Enter second number")
-# c = input("Enter three number")
+a = input("Enter first number")
+b = input("Enter second number")
+c = input("Enter three number")
 
-# if a > b and a > c:
-#     largest = a
-# elif b > a and b > c:
-#     largest = b
-# else:
-#     largest = c
+if a > b and a > c:
+    largest = a
+elif b > a and b > c:
+    largest = b
+else:
+    largest = c
 
-# print("largest number is ", largest)
+print("largest number is ", largest)
 
 
 # 6. Create a program to find the remainder when one number is divided by another
 
-# num1 = int(input("Enter the num: "))
-# num2 = int(input("Enter the num: "))
+num1 = int(input("Enter the num: "))
+num2 = int(input("Enter the num: "))
 
-# remainder = num1 % num2
+remainder = num1 % num2
 
-# print(f"The remainder {num1} divided by {num2} is {remainder}")
+print(f"The remainder {num1} divided by {num2} is {remainder}")
 
 
 # 7. Write a program to check if a given year is a leap year
 
 
-# year = int(input("Enter a year: "))
+year = int(input("Enter a year: "))
 
-# if (year % 4 == 0) and (year % 400 == 0):
-#     print("Leap year")
-# else:
-#     print("Not a leap year")
+if (year % 4 == 0) and (year % 400 == 0):
+    print("Leap year")
+else:
+    print("Not a leap year")
 
 
 # 8. Create a simple calculator using if-elif-else (add, subtract, multiply, divide).
