@@ -1,25 +1,24 @@
 # 1.  Create a program that takes your name and age as input and prints them in a sentence.
 
-# name = input("Enter your name:")
-# age = input("Enter your age:")
-
-# print(f"My name is {name} and I am {age} year old")
+name = input("Enter your name:")
+age = input("Enter your age:")
+print(f"My name is {name} and I am {age} year old")
 
 
 # 2. Store your favorite movie name, release year, and rating in variables and print them in a formatted string.
 
-# movie_name = "Hanuman"
-# release_year = 2025
-# rating = 9.2
+movie_name = "Hanuman"
+release_year = 2025
+rating = 9.2
 
-# print(f"My favorite movie is {movie_name}, and release {release_year},with ratting of {rating}/10.")
+print(f"My favorite movie is {movie_name}, and release {release_year},with ratting of {rating}/10.")
 
 
 # 3. Take input from the user and check its data type using type().
 
-# user = 52.20
+user = 52.20
 
-# print(type(user))
+print(type(user))
 
 # 4. Write a program that accepts two integers and prints their sum, difference, product, and quotient.
 
