@@ -30,30 +30,30 @@
 
 
 
-# num1 = 75
-# num2 = 80
-# num3 = 90
+num1 = 75
+num2 = 80
+num3 = 90
 
-# # Compare the numbers using conditional statements
-# if num1 >= num2 and num1 >= num3:
-#     largest = num1
-# elif num2 >= num1 and num2 >= num3:
-#     largest = num2
-# else:
-#     largest = num3
+# Compare the numbers using conditional statements
+if num1 >= num2 and num1 >= num3:
+    largest = num1
+elif num2 >= num1 and num2 >= num3:
+    largest = num2
+else:
+    largest = num3
 
-# # Output the result
-# print("The largest number is:", largest)
+# Output the result
+print("The largest number is:", largest)
 
 
 
-# num = 10
-# if num > 10:
-#   print("positive")
-# elif num < 10:
-#   print("negative")
-# else:
-#   print("zero")
+num = 10
+if num > 10:
+  print("positive")
+elif num < 10:
+  print("negative")
+else:
+  print("zero")
 
 
 
