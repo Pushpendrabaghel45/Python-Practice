@@ -30,9 +30,9 @@
 
 
 
-num1 = 75
+num1 = 60
 num2 = 80
-num3 = 90
+num3 = 100
 
 # Compare the numbers using conditional statements
 if num1 >= num2 and num1 >= num3:
