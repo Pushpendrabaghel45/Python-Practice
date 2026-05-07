@@ -1,4 +1,4 @@
-# # 1. Check if a string starts with “Hello”.
+# 1. Check if a string starts with “Hello”.
 
 # import re
 
@@ -16,7 +16,6 @@
 
 
 # # 2. Find all numbers in a sentence.
-
 
 # import re
 
