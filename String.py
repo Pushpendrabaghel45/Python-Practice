@@ -17,9 +17,9 @@
 # print(text1, text2, text3)
 
 
-name = "python"
-print(name[5])  
-print(name[-5])  
+# name = "python"
+# print(name[5])  
+# print(name[-5])  
 
 
 
