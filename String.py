@@ -23,11 +23,11 @@
 
 
 
-text = "Data analytics"
-print(text[0:4])
-print(text[:4])
-print(text[5:])
-print(text[5:11])
-print(text[-3:])  
+# text = "Data analytics"
+# print(text[0:4])
+# print(text[:4])
+# print(text[5:])
+# print(text[5:11])
+# print(text[-3:])  
 
 
