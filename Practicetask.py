@@ -29,41 +29,40 @@
 #     print(f"{leap_year} is not a Leap Year.")
 
 
+# num1 = 60
+# num2 = 80
+# num3 = 100
 
-num1 = 60
-num2 = 80
-num3 = 100
+# # Compare the numbers using conditional statements
+# if num1 >= num2 and num1 >= num3:
+#     largest = num1
+# elif num2 >= num1 and num2 >= num3:
+#     largest = num2
+# else:
+#     largest = num3
 
-# Compare the numbers using conditional statements
-if num1 >= num2 and num1 >= num3:
-    largest = num1
-elif num2 >= num1 and num2 >= num3:
-    largest = num2
-else:
-    largest = num3
-
-# Output the result
-print("The largest number is:", largest)
-
-
-
-num = 10
-if num > 10:
-  print("positive")
-elif num < 10:
-  print("negative")
-else:
-  print("zero")
+# # Output the result
+# print("The largest number is:", largest)
 
 
 
-age = 12
-if age < 12:
-    print("child")
-elif 12 <= age <= 18:
-    print("teenager")
-else:
-    print("adult")
+# num = 10
+# if num > 10:
+#   print("positive")
+# elif num < 10:
+#   print("negative")
+# else:
+#   print("zero")
+
+
+
+# age = 12
+# if age < 12:
+#     print("child")
+# elif 12 <= age <= 18:
+#     print("teenager")
+# else:
+#     print("adult")
 
 
 
