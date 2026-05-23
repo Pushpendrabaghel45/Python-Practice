@@ -11,7 +11,6 @@
 
 # 1. Create a class Account with a private attribute __balance. Add getter and setter methods.
 
-
 # class Account:
 #     def __init__(self, __balance):
 #         self.__balance = __balance
