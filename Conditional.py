@@ -95,7 +95,6 @@
 #     print(f"Grade: {grade}")
 
 
-
 department = input("Enter department: ")
 role = input("Enter role: ")
 
