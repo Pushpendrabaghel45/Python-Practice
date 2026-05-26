@@ -44,7 +44,6 @@ def age_check(func):
         return func(age, *args, **kwargs)
     return wrapper
 
-
 @age_check
 def decorator(age):
     print("Elagable to vote")
