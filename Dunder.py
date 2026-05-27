@@ -26,7 +26,6 @@
 # print(len(p))  
 
 
-
 # # 3. Overload the + operator for a BankAccount class to add balances.
 
 
@@ -48,7 +47,6 @@
 
 
 # # 4. Create a class Student where == compares based on marks.
-
 
 # class Student:
 #     def __init__(self,marks):
