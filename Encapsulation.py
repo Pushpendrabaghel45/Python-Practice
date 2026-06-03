@@ -26,7 +26,6 @@
 #             print("invalid amount")
 
 
-
 # acc = Account(100000)
 # print(acc.get__balance())
 # acc.set_balance(2000)
