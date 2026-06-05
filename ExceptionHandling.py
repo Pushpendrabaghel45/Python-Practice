@@ -91,7 +91,7 @@
 class MarksError(Exception):
     """Raise when marks are  greater than."""
     pass
-
+    
 class Student:
     def __init__(self, name):
         self.name = name
@@ -105,7 +105,7 @@ class Student:
         self.marks.append(mark)
     def average(self):
         return sum(self.marks) / len(self.marks) if self. marks else 0
-
+       
 Student = Student("Pushpendra")
 
 try:
