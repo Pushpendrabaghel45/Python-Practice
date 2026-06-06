@@ -26,22 +26,22 @@
 # print("Frameboxx")
 # customfun()
 
-def addition(x,y):
-    print(x+y)
+# def addition(x,y):
+#     print(x+y)
 
-addition(20, 30)
-addition(30, 40)
-addition(60, 80)
-addition(70, 100)
+# addition(20, 30)
+# addition(30, 40)
+# addition(60, 80)
+# addition(70, 100)
 
 
-def greet(name):
-    print(f"Hello, {name}!")
+# def greet(name):
+#     print(f"Hello, {name}!")
 
-greet("Alice")
-def greet(name):
-    return(f"Hello, {name}!")
+# greet("Alice")
+# def greet(name):
+#     return(f"Hello, {name}!")
 
-    print(greet('Alice'))
+#     print(greet('Alice'))
 
 
