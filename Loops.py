@@ -4,7 +4,7 @@
 #         print(i, end=' ')
 #     print()
 
-
+ 
 for i in range(10, 0, -1):
     for k in range(i):
         print("*", end=' ')
@@ -34,21 +34,21 @@ for i in range(10, 0, -1):
 #     print(i)
 
 
-# li = ["python", "java", "c++", "javascript"]
-# for index in range(len(li)):
-#     print(li[index])
-# else:
-#     print("inside else block")
+li = ["python", "java", "c++", "javascript"]
+for index in range(len(li)):
+    print(li[index])
+else:
+    print("inside else block")
 
 
 
-# cnt = 0
-# while (cnt < 5):
-#     cnt = cnt + 1
-#     print("Hello World")
+cnt = 0
+while (cnt < 5):
+    cnt = cnt + 1
+    print("Hello World")
 
-# else:
-#     print("Inside else block")
+else:
+    print("Inside else block")
 
 
 
