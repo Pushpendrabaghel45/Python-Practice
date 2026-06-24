@@ -51,23 +51,23 @@
 #     print("Invalid Credentials")
 
 
-# # User permissions using bits (1 = allowed, 0 = not)
-# READ = 4   # 100
-# WRITE = 2  # 010
-# EXEC = 1   # 001
-# print(READ )
-# print(WRITE)
-# print(EXEC)
-# user_perm = READ | EXEC  # 101
-# print(user_perm)  # Output: 5 (binary 101)
-# print(user_perm & WRITE == WRITE)  # False → No write permission
+# User permissions using bits (1 = allowed, 0 = not)
+READ = 4   # 100
+WRITE = 2  # 010
+EXEC = 1   # 001
+print(READ )
+print(WRITE)
+print(EXEC)
+user_perm = READ | EXEC  # 101
+print(user_perm)  # Output: 5 (binary 101)
+print(user_perm & WRITE == WRITE)  # False → No write permission
 
 
 
-# x = 10 + 5 * 2  # Output: 20 (Multiplication happens first)
-# y = (10 + 5) * 2  # Output: 30
-# print("x",x)  # 20
-# print("y",y)  # 30
+x = 10 + 5 * 2  # Output: 20 (Multiplication happens first)
+y = (10 + 5) * 2  # Output: 30
+print("x",x)  # 20
+print("y",y)  # 30 
 
 
 
