@@ -35,20 +35,20 @@
 # print("Final Price:", final_price)
 
 
-# age = int(input("Enter age: "))
-# if age >= 18:
-#     print("Eligible to vote")
-# else:
-#     print("Not eligible")
+age = int(input("Enter age: "))
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible")
 
 
-# email = "admin@company.com"
-# password = "admin123"
+email = "admin@company.com"
+password = "admin123"
 
-# if email == "admin@company.com" and password == "admin123":
-#     print("Login Success")
-# else:
-#     print("Invalid Credentials")
+if email == "admin@company.com" and password == "admin123":
+    print("Login Success")
+else:
+    print("Invalid Credentials")
 
 
 # User permissions using bits (1 = allowed, 0 = not)
