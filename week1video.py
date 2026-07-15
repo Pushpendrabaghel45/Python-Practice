@@ -1,5 +1,5 @@
 # 1.  Create a program that takes your name and age as input and prints them in a sentence.
-
+ 
 name = input("Enter your name:")
 age = input("Enter your age:")
 print(f"My name is {name} and I am {age} year old")
@@ -19,7 +19,7 @@ print(f"My favorite movie is {movie_name}, and release {release_year},with ratti
 user = 52.20
 
 print(type(user))
-
+ 
 # 4. Write a program that accepts two integers and prints their sum, difference, product, and quotient.
 
 a = 50
