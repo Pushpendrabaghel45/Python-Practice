@@ -1,10 +1,11 @@
+ 
 # try:
 #     a = 10 / 5
 # except ZeroDivisionError:
 #     print("You can't divide by zero!")
 # finally:
 #     print("Execution completed.")
-
+    
 # try:
 #     num = int(input("Enter a number: "))
 #     result = 10 / num
@@ -14,7 +15,7 @@
 #     print("Division by zero is not allowed.")
 # finally:
 #     print("Try block execution done.")
-
+     
 
 # try:
 #     x = int(input("Enter number: "))
