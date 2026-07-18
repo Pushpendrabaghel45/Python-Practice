@@ -1,4 +1,4 @@
- 
+     
 # try:
 #     a = 10 / 5
 # except ZeroDivisionError:
@@ -40,7 +40,7 @@ def withdraw(balance, amount):
     if amount > balance:
         raise BankBalanceError("Insufficient Balance", balance)
     print("Withdrawal Successful")
-
+                                                                                 
 try:
     withdraw(1000, 1500)
 except BankBalanceError as e:
