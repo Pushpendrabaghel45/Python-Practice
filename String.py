@@ -1,12 +1,12 @@
 # names = []  # empty list
-
+       
 # for i in range(5):
 #     name = input(f"Enter name {i+1}: ").upper()
 #     names.append(name)
-
+     
 # print("Names List:", names)
 
-
+    
 # # name=input("Enter your name: ")
 # # print(name)
 
