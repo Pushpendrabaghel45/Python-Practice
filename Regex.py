@@ -1,5 +1,5 @@
 # 1. Check if a string starts with “Hello”.
-
+ 
 import re
 
 text = "Hello, world!"
@@ -9,7 +9,7 @@ if re.match(r"^Hello", text):
     print("The string starts with 'Hello'")   
 else:
     print("The string does not start with 'Hello'")
-
+     
 # if re.match(r"^Hello", text, re.IGNORECASE):
 #     print("Starts with 'Hello' (case-insensitive)")
 
