@@ -1,5 +1,5 @@
 # 1. Check if a string starts with “Hello”.
- 
+   
 import re
 
 text = "Hello, world!"
