@@ -1,5 +1,5 @@
                                 # step = 1
-
+  
 # class Calculater:
 #     def Add(self, *num):
 #         if len(num) == 2:
