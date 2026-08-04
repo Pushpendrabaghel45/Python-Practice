@@ -63,7 +63,6 @@ print(user_perm)  # Output: 5 (binary 101)
 print(user_perm & WRITE == WRITE)  # False → No write permission
 
 
-
 x = 10 + 5 * 2  # Output: 20 (Multiplication happens first)
 y = (10 + 5) * 2  # Output: 30
 print("x",x)  # 20
