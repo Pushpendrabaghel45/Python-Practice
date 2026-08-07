@@ -62,7 +62,7 @@ class Car:
         print(f"Car : {self.year} {self.brand} {self.model}")
 
 # Create two car objects
-car1 = Car("Honda", "Civic", 2021)
+car1 = Car("Honda", "siver", 2024)
 car2 = Car("Tata", "Nexon", 2022)
 
 
