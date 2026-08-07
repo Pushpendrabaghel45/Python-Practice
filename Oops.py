@@ -1,4 +1,4 @@
-                         # Step=1( Create a Car class with attributes: brand, model, and year)
+                        # Step=1( Create a Car class with attributes: brand, model, and year)
                      
 
 # class Car:
@@ -44,7 +44,6 @@
 # car1.display_info()
 # car2.display_info()
 # car3.display_info()
-
 
 
                #  Step=3(Create 2 different car objects and call the method)
