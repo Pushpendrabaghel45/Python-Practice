@@ -4,7 +4,8 @@
 #         print(i, end=' ')
 #     print()
 
- 
+
+
 for i in range(10, 0, -1):
     for k in range(i):
         print("*", end=' ')
