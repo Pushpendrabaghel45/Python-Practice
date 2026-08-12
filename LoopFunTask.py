@@ -1,4 +1,4 @@
- 
+  
 ## Loop examples
 
 # for(ini; condi;increment/decrement) {body}
@@ -34,8 +34,8 @@
 
 
 # s = ("python")
-# for i in s:
-#     print(i)
+# for j in s:
+#     print(j)
 
 
 # li = ["python", "java", "c++", "javascript"]
