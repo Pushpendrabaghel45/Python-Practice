@@ -1,5 +1,5 @@
 # Practice Inheritance in Python
-
+ 
 # Task 1: Single Inheritance
 
 # class Vehicle:
@@ -72,26 +72,26 @@
 
 
 # #    Task 4: Hierarchical Inheritance
-# class shape:
-#     def show_shape(self, area):
-#         self.area = area
-#         print(f"area of the shape: {self.area}")
+class shape:
+    def show_shape(self, area):
+        self.area = area
+        print(f"area of the shape: {self.area}")
 
-# class circle(shape):
-#     def show_circle(self):
-#         print("This is a Circle")
+class circle(shape):
+    def show_circle(self):
+        print("This is a Circle")
 
-# class rectangle(shape):
-#     def show_rectangle(self):
-#         print("This is a Rectangle")
+class rectangle(shape):
+    def show_rectangle(self):
+        print("This is a Rectangle")
     
-# s = shape()
-# c = circle()
-# r = rectangle()
+s = shape()
+c = circle()
+r = rectangle()
 
-# s.show_shape(10)
-# c.show_circle()
-# r.show_rectangle()
+s.show_shape(10)
+c.show_circle()
+r.show_rectangle()
 
 
 #   Task 5 using super()
