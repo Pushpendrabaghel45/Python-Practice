@@ -44,29 +44,29 @@
 
 # Task 3: Multilevel Inheritance
 
-# class person:
-#     def show__person(self, name):
-#         self.name = name
+class person:
+    def show__person(self, name):
+        self.name = name
 
-# class employee(person):
-#     def show__employee(self, name, salary):
-#         super().show__person(name)
-#         self.salary = salary
+class employee(person):
+    def show__employee(self, name, salary):
+        super().show__person(name)
+        self.salary = salary
 
 
-# class manager(employee):
-#     def show__manager(self, name, salary, department):
-#         super().show__employee(name, salary)
-#         self.department = department
+class manager(employee):
+    def show__manager(self, name, salary, department):
+        super().show__employee(name, salary)
+        self.department = department
 
-#     def display_details(self):
-#         print(f"Manager Name: {self.name}")
-#         print(f"Salary: {self.salary}")
-#         print(f"Department: {self.department}")
+    def display_details(self):
+        print(f"Manager Name: {self.name}")
+        print(f"Salary: {self.salary}")
+        print(f"Department: {self.department}")
 
-# m = manager()
-# m.show__manager("pushpendra", 80000, "HR")
-# m.display_details()
+m = manager()
+m.show__manager("pushpendra", 50000, "HR")
+m.display_details()
 
 
 
