@@ -65,7 +65,7 @@ class manager(employee):
         print(f"Department: {self.department}")
 
 m = manager()
-m.show__manager("pushpendra", 50000, "HR")
+m.show__manager("pushpendra", 60000, "HR")
 m.display_details()
 
 
