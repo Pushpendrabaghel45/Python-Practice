@@ -35,13 +35,13 @@
 # addition(70, 100)
 
 
-# def greet(name):
-#     print(f"Hello, {name}!")
+def greet(name):
+    print(f"Hello, {name}!")
 
-# greet("Alice")
-# def greet(name):
-#     return(f"Hello, {name}!")
+greet("Khushi")
+def greet(name):
+    return(f"Hello, {name}!")
 
-#     print(greet('Alice'))
+    print(greet('Khushi'))
 
 
