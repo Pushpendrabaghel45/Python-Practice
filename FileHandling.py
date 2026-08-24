@@ -1,15 +1,14 @@
-# 1. Create a class TextLogger that appends new messages into a log file.
+1. Create a class TextLogger that appends new messages into a log file.
 
-# class TextLogger:
+class TextLogger:
 
-#     def __init__(self, filename = "log.txt"):
-#         self.filename = filename
+    def __init__(self, filename = "log.txt"):
+        self.filename = filename
 
-#     def log(self, messages):
-#         self.messages = messages
-#         with open(self.filename,  "a") as file:
-#             file.write(messages + "\n")
-
+    def log(self, messages):
+        self.messages = messages
+        with open(self.filename,  "a") as file:
+            file.write(messages + "\n")
 
 class JSONLibrary:
     def __init__(self, filename="library.json"):
