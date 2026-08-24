@@ -1,4 +1,4 @@
-1. Create a class TextLogger that appends new messages into a log file.
+1. Create a class TextLogger that appends new messages into a log file ? .
 
 class TextLogger:
 
