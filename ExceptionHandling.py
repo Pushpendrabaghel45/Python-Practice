@@ -64,54 +64,54 @@
 #     print(f"Validation Error: {e}")
 
 
-# # 4. Create a program that raises an exception if a number is divided by zero (custom error, not ZeroDivisionError).
+# 4. Create a program that raises an exception if a number is divided by zero (custom error, not ZeroDivisionError).
 
 
-# class DivisionByZeroError(Exception):
-#     """Custom exception for division by zero."""
-#     pass
-
-# def safe_divide(a, b):
-#     if b == 0:
-#         raise DivisionByZeroError("can't divid by zero.")
-
-#     return a / b 
-
-# try:
-#     result = safe_divide(100, 18)
-#     print(f"Result: {result}")
-    
-# except DivisionByZeroError as e:
-#     print(f"Math error: {e}")
-
-    
-# 5. Design a Student class where adding marks raises an exception if marks > 100
-
-
-class MarksError(Exception):
-    """Raise when marks are  greater than."""
+class DivisionByZeroError(Exception):
+    """Custom exception for division by zero."""
     pass
-    
-class Student:
-    def __init__(self, name):
-        self.name = name
-        self.marks = []
 
-    def add_mark(self, mark):
-        if mark > 100:
+def safe_divide(a, b):
+    if b == 0:
+        raise DivisionByZeroError("can't divid by zero.")
 
-            raise MarksError(f"mark {mark} is invalid.")
-
-        self.marks.append(mark)
-    def average(self):
-        return sum(self.marks) / len(self.marks) if self. marks else 0
-       
-Student = Student("Pushpendra")
+    return a / b 
 
 try:
-    Student.add_mark(95)
-    Student.add_mark(55)
+    result = safe_divide(100, 18)
+    print(f"Result: {result}")
+    
+except DivisionByZeroError as e:
+    print(f"Math error: {e}")
 
-except MarksError as e:
-    print(f"marks error: {e}")
+    
+# # 5. Design a Student class where adding marks raises an exception if marks > 100
+
+
+# class MarksError(Exception):
+#     """Raise when marks are  greater than."""
+#     pass
+    
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+#         self.marks = []
+
+#     def add_mark(self, mark):
+#         if mark > 100:
+
+#             raise MarksError(f"mark {mark} is invalid.")
+
+#         self.marks.append(mark)
+#     def average(self):
+#         return sum(self.marks) / len(self.marks) if self. marks else 0
+       
+# Student = Student("Pushpendra")
+
+# try:
+#     Student.add_mark(96)
+#     Student.add_mark(54)
+
+# except MarksError as e:
+#     print(f"marks error: {e}")
 
