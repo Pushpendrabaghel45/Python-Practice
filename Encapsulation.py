@@ -33,17 +33,17 @@
 
 # 2.Make a class Car with public (brand), protected (_mileage), and private (__price) attributes. Print them.
 
-class car:
+class car: 
     def __init__(self, brand, mileage, price):
         self.brand = brand
         self._mileage = mileage
         self.__price = price
-
+  
     def display(self):
         print(self.brand)
         print(self._mileage)
         print(self.__price)
-
+  
 car = car("Tata", 18, 5000000)
 car.display()
 
