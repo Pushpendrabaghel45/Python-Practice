@@ -25,7 +25,7 @@ def count_calls(func):
         return func(*args, **kwargs)
     wrapper.calls = 0
     return wrapper
-
+ 
 @count_calls
 def call():
     print("Hello Frameboxx!")
