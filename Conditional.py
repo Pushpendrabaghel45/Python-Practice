@@ -1,13 +1,13 @@
-# income = float(input("Enter your income: "))
+income = float(input("Enter your income: "))
 
-# if income <= 25000:
-#     print("No tax")
-# elif income <= 50000:
-#     print("Tax rate: 5%")
-# elif income <= 100000:
-#     print("Tax rate: 20%")
-# else:
-#     print("Tax rate: 30%")
+if income <= 30000:
+    print("No tax")
+elif income <= 50000:
+    print("Tax rate: 5%")
+elif income <= 100000:
+    print("Tax rate: 20%")
+else:
+    print("Tax rate: 30%")
 
 
 
