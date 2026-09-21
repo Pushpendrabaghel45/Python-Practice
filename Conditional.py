@@ -95,18 +95,18 @@ else:
 #     print(f"Grade: {grade}")
 
 
-department = input("Enter department: ")
-role = input("Enter role: ")
+# department = input("Enter department: ")
+# role = input("Enter role: ")
 
-if department == "IT":
-    if role == "Developer":
-        print("Assigned to Web App Project")
-    elif role == "Tester":
-        print("Assigned to QA Team")
-    else:
-        print("Unknown Role")
-else:
-    print("Not an IT department")
+# if department == "IT":
+#     if role == "Developer":
+#         print("Assigned to Web App Project")
+#     elif role == "Tester":
+#         print("Assigned to QA Team")
+#     else:
+#         print("Unknown Role")
+# else:
+#     print("Not an IT department")
 
 
 
