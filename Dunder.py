@@ -72,7 +72,7 @@
 #     def __init__(self, a, b):
 #         self.a = a
 #         self.b = b
-
+   
 #     def __add__(self, other):
 #         return Vector({self.a + other.a, self.b + other.b})
 
@@ -152,7 +152,7 @@ em = Employee("Pushpendra baghel", 30000)
 # em = Employee["pushpa", "raju", "singham"]
 
 em1 = Employee("Pushpendra baghel", 30000)
-em2 = Employee(" shivam baghel", 20000)
+em2 = Employee(" shivam baghel", 10000)
 
 em3 = em1 + em2
 print(em3)
