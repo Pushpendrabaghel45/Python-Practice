@@ -11,6 +11,7 @@ print(vl1*vl2)
 print (80+40)
 print (vl1/vl2)
 
+
 # print(100 / 10 * 10)
 # print(5 - 2 + 3)
 # print(5 - (2 + 3))
