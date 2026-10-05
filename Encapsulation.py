@@ -44,7 +44,7 @@ class car:
         print(self._mileage)
         print(self.__price)
   
-car = car("Tata", 18, 5000000)
+car = car("Tata", 18, 50000000)
 car.display()
 
 
