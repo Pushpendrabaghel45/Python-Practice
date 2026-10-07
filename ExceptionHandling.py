@@ -1,22 +1,22 @@
 # 1. Create a custom exception TooYoungError. Raise it if age entered is less than 18.
 
-# class TooYoungError(Exception):
-#     " exception when raise is less than 18."
+class TooYoungError(Exception):
+    " exception when raise is less than 18."
 
-#     pass
+    pass 
 
-# def check_age(age):
-#     try:
-#         if age < 18:
-#             raise TooYoungError(f"Age {age} is age less than  18.")
+def check_age(age):
+    try:
+        if age < 18:
+            raise TooYoungError(f"Age {age} is age less than  18.")
 
-#         print(f"Age {age} is valid.")
+        print(f"Age {age} is valid.")
 
-#     except TooYoungError as e:
-#         print(f"Error: {e}")
+    except TooYoungError as e:
+        print(f"Error: {e}")
 
-# check_age(18)
-# check_age(16)
+check_age(18)
+check_age(16)
 
 
 # # 2. Write a BankAccount class where withdrawal raises InsufficientFundsError if balance is low.
@@ -67,22 +67,22 @@
 # 4. Create a program that raises an exception if a number is divided by zero (custom error, not ZeroDivisionError).
 
 
-class DivisionByZeroError(Exception):
-    """Custom exception for division by zero."""
-    pass
+# class DivisionByZeroError(Exception):
+#     """Custom exception for division by zero."""
+#     pass
 
-def safe_divide(a, b):
-    if b == 0:
-        raise DivisionByZeroError("can't divid by zero.")
+# def safe_divide(a, b):
+#     if b == 0:
+#         raise DivisionByZeroError("can't divid by zero.")
 
-    return a / b 
+#     return a / b 
 
-try:
-    result = safe_divide(100, 18)
-    print(f"Result: {result}")
+# try:
+#     result = safe_divide(100, 18)
+#     print(f"Result: {result}")
     
-except DivisionByZeroError as e:
-    print(f"Math error: {e}")
+# except DivisionByZeroError as e:
+#     print(f"Math error: {e}")
 
     
 # # 5. Design a Student class where adding marks raises an exception if marks > 100
