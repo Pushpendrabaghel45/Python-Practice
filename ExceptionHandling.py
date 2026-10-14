@@ -88,30 +88,30 @@ check_age(16)
 # # 5. Design a Student class where adding marks raises an exception if marks > 100
 
 
-# class MarksError(Exception):
-#     """Raise when marks are  greater than."""
-#     pass
+class MarksError(Exception):
+    """Raise when marks are  greater than."""
+    pass
     
-# class Student:
-#     def __init__(self, name):
-#         self.name = name
-#         self.marks = []
+class Student:
+    def __init__(self, name):
+        self.name = name
+        self.marks = []
 
-#     def add_mark(self, mark):
-#         if mark > 100:
+    def add_mark(self, mark):
+        if mark > 100:
 
-#             raise MarksError(f"mark {mark} is invalid.")
+            raise MarksError(f"mark {mark} is invalid.")
 
-#         self.marks.append(mark)
-#     def average(self):
-#         return sum(self.marks) / len(self.marks) if self. marks else 0
+        self.marks.append(mark)
+    def average(self):
+        return sum(self.marks) / len(self.marks) if self. marks else 0
        
-# Student = Student("Pushpendra")
+Student = Student("Pushpendra")
 
-# try:
-#     Student.add_mark(96)
-#     Student.add_mark(54)
+try:
+    Student.add_mark(96)
+    Student.add_mark(54)
 
-# except MarksError as e:
-#     print(f"marks error: {e}")
+except MarksError as e:
+    print(f"marks error: {e}")
 
