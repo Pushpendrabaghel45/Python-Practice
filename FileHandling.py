@@ -24,7 +24,7 @@ class JSONLibrary:
     def save_books(self, books):
         with open(self.filename, "w") as file:
             json.dump(books, file, indent=4)
-
+  
     def add_book(self, title, author):
         books = self.load_books()
         books.append({"title": title, "author": author})
