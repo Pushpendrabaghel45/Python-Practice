@@ -2,7 +2,6 @@
 #     print("Hello, World!")
 # fun()
 
-
 # def evenOdd(x: int) -> str:
 #     if x % 2 == 0:
 #         return "Even"
@@ -38,10 +37,10 @@
 def greet(name):
     print(f"Hello, {name}!")
 
-greet("Khushi")
+greet("Khushii")
 def greet(name):
     return(f"Hello, {name}!")
 
-    print(greet('Khushi'))
+    print(greet('Khushii'))
 
 
