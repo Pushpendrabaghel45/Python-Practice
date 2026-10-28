@@ -2,7 +2,7 @@
  
 # Task 1: Single Inheritance
 
-# class Vehicle:
+# class Vehicle:    
 #     def show (self,brand, model ):
 #         self.brand = brand
 #         self.model = model
@@ -67,7 +67,6 @@ class manager(employee):
 m = manager()
 m.show__manager("pushpendra", 60000, "HR")
 m.display_details()
-
 
 
 
